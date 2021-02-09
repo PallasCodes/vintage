@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/styles.min.css">
     <title>Vintage Rock Band</title>
@@ -43,7 +44,7 @@
 
         <!-- SECTION EVENTS -->
         <section class="section events">
-            <article class="primary-event event">
+            <article class="primary-event event" data-aos="flip-up">
                 <h2 class="page__title">
                     <span class="page__title--enfasis">Entevista en La Hora Nacioal Tlaxcala</span>
                 </h2>
@@ -64,7 +65,7 @@
             </article>
 
             <div id="secondary-events">
-                <article class="event">
+                <article class="event" data-aos="fade-right">
                     <h3>Live en Bar el Jardín</h3>
                     <div class="img-wrapper">
                         <img src="https://scontent.fjal2-1.fna.fbcdn.net/v/t1.0-9/120344996_790806761680831_2455634865336074778_o.jpg?_nc_cat=106&ccb=2&_nc_sid=8bfeb9&_nc_ohc=5LGjl7zPJTUAX9toj9z&_nc_ht=scontent.fjal2-1.fna&oh=fdc941f8fae78802f3fc8c975c25d55d&oe=6041D488" alt="" class="img-fluid">
@@ -82,7 +83,7 @@
                     </div>
                 </article>
 
-                <article class="event">
+                <article class="event" data-aos="fade-left">
                     <h3>Live Session</h3>
                     <div class="img-wrapper">
                         <img src="https://scontent.fjal2-1.fna.fbcdn.net/v/t1.0-9/107696384_732340910860750_8147650796289005774_n.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=E2iQ6zmH4V8AX_-Mjn5&_nc_ht=scontent.fjal2-1.fna&oh=d0692bf45569041c0419136028609d33&oe=6042D711" alt="" class="img-fluid">
@@ -102,7 +103,7 @@
                     </div>
                 </article>
 
-                <article class="event">
+                <article class="event" data-aos="fade-right">
                     <h3>Concierto en la Feria de San Cosme</h3>
                     <div class="img-wrapper">
                         <img src="https://scontent.fjal2-1.fna.fbcdn.net/v/t1.0-9/48365075_362143821213796_6670722966814195712_n.jpg?_nc_cat=110&ccb=2&_nc_sid=8bfeb9&_nc_ohc=_rGuc6F6tYYAX9hdgbr&_nc_ht=scontent.fjal2-1.fna&oh=95b8cfbacd878b043ba9a3d218e09a89&oe=60439172" alt="" class="img-fluid">
@@ -145,5 +146,9 @@
     
     <!-- SCRIPTS -->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
